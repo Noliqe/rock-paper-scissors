@@ -1,6 +1,5 @@
 //#Function computerPlay that randomize "Rock, Paper, Scissors" and check with console//
 
-
 function computerPlay(){
     return myArray[Math.floor(Math.random()*myArray.length)];
 }
