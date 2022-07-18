@@ -1,0 +1,177 @@
+
+html {
+    background-image: url(./images/risto-kokkonen-gfDctAfYxsY-unsplash.jpg);
+    background-repeat: no-repeat;
+}
+
+.header{
+    text-align: center;
+    color: #585858;
+}
+
+/* All icons*/
+
+img{
+    max-width: 50px;
+    max-height: 50px;
+}
+
+/*Game text display*/
+
+#textOutput {
+    margin-top: 50px;
+    margin-bottom: 40px;
+    color: #a1a1a1;
+    font-size: 1.4em;
+}
+
+/* Main container*/
+
+#headContainer {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+/* All buttons*/
+
+button {
+    margin: 1em;
+    padding: 1.5em;
+}
+/* Container Person */
+
+.playerContainer{
+    text-align: center;
+    color: #a5a4a4;
+}
+
+#containerOne {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    background-color: rgba(68, 12, 12, 0.3);
+    border: solid 2px #f9faf8;
+    border-radius: 10px;
+}
+
+#btnOne:hover, #btnTwo:hover, #btnThree:hover {
+    box-shadow:  0 0 5px #f9faf8, 0 0 15px #f9faf8, 0 0 30px #f9faf8;
+}
+
+.firstContainerOne {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.secondContainerOne {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.thirdContainerOne {
+    display: flex;
+    gap: 5px;
+
+}
+
+.fourthContainerOne {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+#pWon {
+    color: #a1a1a1;
+    font-size: 26px;
+}
+
+#inptWon {
+    color: #e2b27b;
+    font-size: 26px;
+}
+
+.computerIcon{
+    padding-top: 10px;
+}
+
+/* Container Computer*/
+
+.computerContainer {
+    text-align: center;
+    color: #a5a4a4;
+}
+
+#containerTwo {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: rgba(68, 12, 12, 0.3);
+    border: solid 2px #f9faf8;
+    border-radius: 10px;
+}
+
+.firstContainerTwo {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.secondContainerTwo {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.thirdContainerTwo {
+    display: flex;
+    gap: 5px;
+
+}
+
+.fourthContainerTwo {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+#pLost {
+    color: #a1a1a1;
+    font-size: 26px;
+}
+
+#inptLost {
+    color: #e2b27b;
+    font-size: 26px;
+}
+
+.personIcon {
+    padding-top: 5px;
+}
+
+/*Reset button*/
+
+.containerResetBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#resetBtn {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgba(68, 12, 12, 0.3);
+    border: solid 2px #f9faf8;
+    font-size: 18px;
+    color: #a1a1a1;
+}
+
+#resetBtn:hover {
+    box-shadow:  0 0 5px #f9faf8, 0 0 15px #f9faf8, 0 0 30px #f9faf8;
+}
+
+
+
+@media only screen and (min-width: 600px) {
+}

@@ -5,7 +5,66 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock-paper-scissors</title>
-    <script src="./javascript.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link type="image/png" sizes="32x32" rel="icon" href="images/icons8-rock-32.png">
 </head>
-<body></body>
+<body>
+<!--Header text-->
+<div class="header">ROCK PAPER SCISSORS</div>
+<!--Text output-->
+<h1 id="textOutput"></h1>
+<!--Player vs Computer-->
+<!-- Head container-->
+<div id="headContainer">
+<!--Container Person-->
+<div class="playerContainer">
+<h2>Player</h2>
+    <div id="containerOne">
+        <div class="firstContainerOne">
+            <div class="secondContainerOne">
+            <img class="personIcon" src="./images/icons8-person-64.png" width="64px" height="64px">
+                <div class="thirdContainerOne">
+                <p id="pWon"></p>
+                <p id="inptWon"></p>
+                </div>
+            </div>
+                    <div class="fourthContainerOne">
+                    <button id='btnOne'><img src="./images/icons8-rock-96.png"></button>
+                    <button id="btnTwo"><img src="./images/icons8-paper-96.png"></button>
+                    <button id="btnThree"><img src="./images/icons8-scissors-96.png"></button>
+                    </div>
+        </div>
+    </div>
+</div>
+<!--Container Computer-->
+<div class="computerContainer">
+<h2>Computer</h2>
+    <div id="containerTwo">
+        <div class="firstContainerTwo">
+            <div class="secondContainerTwo">
+            <img class="computerIcon" src="./images/icons8-computer-64.png" width="64px" height="64px">
+                <div class="thirdContainerTwo">
+                <p id="pLost"></p>
+                <p id="inptLost"></p>
+                </div>
+            </div>
+                    <div class="fourthContainerTwo">
+                    <button id='compOne'><img src="./images/icons8-rock-96.png"></button>
+                    <button id="compTwo"><img src="./images/icons8-paper-96.png"></button>
+                    <button id="compThree"><img src="./images/icons8-scissors-96.png"></button>
+                    </div>
+        </div>
+    </div>
+</div>
+</div>
+
+
+<!--Reset button-->
+<div class="containerResetBtn">
+<button id="resetBtn">PLAY AGAIN?</button>
+</div>
+
+<!--Javascript source-->
+<script src="./javascript.js" defer></script>
+</body>
 </html>
